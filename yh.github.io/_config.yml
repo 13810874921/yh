@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://13810874921.github.io/yh.github.io/
-root: /yh.github.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,4 +104,4 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/13810874921/yh.git
+  repo: https://github.com/13810874921/yh.github.io.git
