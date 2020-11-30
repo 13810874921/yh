@@ -8,7 +8,7 @@ description: "真棒👍"  			 #网站介绍
 keyword: "H5 Css3 JavaScript" #关键词
 url: "https://yh.github.io"          # 这个就是填写你的博客地址
 baseurl: ""      # 这个我们不用填写
-
+language: zh-Hans
 
 
 # Sidebar settings
@@ -25,3 +25,8 @@ zhihu_username:     username
 github_username:    username
 facebook_username:  username
 jianshu_username:	jianshu_id
+
+
+deploy:
+    type: git # 使用 Git 提交
+    repository: https://github.com/13810874921/yh.github.io.git # 就是存放博客的仓库地址
